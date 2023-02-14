@@ -1,7 +1,7 @@
 name: Imprime data atual
 on:
   push:
-  
+
 jobs:
   imprime_data_ubuntu:
     name: Imprime data atual - Ubuntu
