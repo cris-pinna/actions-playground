@@ -1,4 +1,3 @@
-name: imprime data atual
 
 on:
   push:
