@@ -1,7 +1,8 @@
+name: Imprime data atual
 on:
   push:
   
-jobs: 
+jobs:
   imprime_data_ubuntu:
     name: Imprime data atual - Ubuntu
     runs-on: ubuntu-latest
