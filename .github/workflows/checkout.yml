@@ -12,4 +12,11 @@ jobs:
     steps:
     - name: Checkout repositorio
       uses: actions/checkout@v3.3.0
+      
+    - name: Upload Build Artifact
+      uses: actions/upload-artifact@v3.1.2
+      with:
+        name: $ {{ vars.NAME }}
+        path: .
+        
      
