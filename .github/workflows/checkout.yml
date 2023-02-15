@@ -1,0 +1,11 @@
+name: exercicio
+
+on:
+  push:
+  
+jobs:
+
+  checkout_code:
+    name: faz checkout
+    runs-on: ubuntu-latest
+    
