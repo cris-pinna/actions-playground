@@ -9,3 +9,7 @@ jobs:
     name: faz checkout
     runs-on: ubuntu-latest
     
+    steps:
+    - name: Checkout repositorio
+      uses: actions/checkout@v3.3.0
+     
